@@ -184,6 +184,8 @@ internal class Program
 
         var test_42 = ListGenerator.EmployeeProjectList.Where(n => !ListGenerator.ProjectList.Any(x => x.Id == n.ProjectId)).Select(n => new { Employee = n.EmployeeId });
         test_42.Print();
+
+        //thie is the secound commit 
     }
 }
 
